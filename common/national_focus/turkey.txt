@@ -1,0 +1,76 @@
+focus_tree = {
+	id = TUR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = Turkey
+		}
+	}
+	#Focus for Ataturk's Vision
+	focus = {
+		id = Turkey_ataturks_vision
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Turkey_the_future_of_turkey }
+		mutually_exclusive = { focus = Turkey_the_return_of_shariah_law }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 50
+		}
+	}
+
+	#Focus for The Return Of Shariah Law
+	focus = {
+		id = Turkey_the_return_of_shariah_law
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Turkey_the_future_of_turkey }
+		mutually_exclusive = { focus = Turkey_ataturks_vision }
+		search_filters = { FOCUS_FILTER_MEX_CHURCH_AUTHORITY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			remove_ideas= TUR_Shariah_Law_Violated
+		}
+	}
+
+	#Focus for The Future of Turkey
+	focus = {
+		id = Turkey_the_future_of_turkey
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = Turkey_promote_anatolian_anticolonialism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Promote Anatolian Anti-Colonialism
+	focus = {
+		id = Turkey_promote_anatolian_anticolonialism
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

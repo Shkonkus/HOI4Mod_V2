@@ -1,0 +1,39 @@
+add_namespace = germany
+
+##Event: The 1936 German Election
+country_event = {
+	id = germany.mod.1
+
+	title = germany.mod.1.t
+
+	desc = germany.mod.1.d
+
+	picture = GFX_event_test
+
+	is_triggered_only = yes
+
+	option = {
+		name = germany.mod.1.a
+		ai_chance = { factor = 1}
+		set_politics= {
+ 		ruling_party = neutrality 
+		elections_allowed = no 
+}
+	}
+	option = {
+		name = germany.mod.1.b
+		ai_chance = { factor = 1}
+		set_politics= {
+ 		ruling_party = communism 
+		elections_allowed = no 
+}
+		add_stability= -0.10 
+		add_political_power= -30
+	}
+	option = {
+		name = germany.mod.1.c
+		ai_chance = { factor = 1}
+		add_stability= -0.20 
+		add_political_power= -50
+	}
+}

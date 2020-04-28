@@ -1,0 +1,79 @@
+add_namespace = germany
+
+focus_tree = {
+	id = german_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	#Focus for 1936 German Election
+	focus = {
+		id = Germany_1936_german_election_mod
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			GER = {country_event = { days = 1 id = germany.mod.1 }}
+			add_political_power = 25
+		}
+	}
+
+	#Focus for KPD wins
+	focus = {
+		id = Germany_kpd_wins
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 10
+		available_if_capitulated = no
+		 = Germany_1936_german_election
+		mutually_exclusive = { focus = Germany_german_national_peoples_party }
+		mutually_exclusive = { focus = Germany_centrist_coalition }
+		prerequisite = { focus = Germany_1936_german_election_mod }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for German National People's Party wins
+	focus = {
+		id = Germany_german_national_peoples_party
+		icon = GFX_goal_unknown
+		x = 10
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = Germany_centrist_coalition }
+		mutually_exclusive = { focus = Germany_kpd_wins }
+		prerequisite = { focus = Germany_1936_german_election_mod }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Centrist Coalition
+	focus = {
+		id = Germany_centrist_coalition
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = Germany_kpd_wins }
+		mutually_exclusive = { focus = Germany_german_national_peoples_party }
+		prerequisite = { focus = Germany_1936_german_election_mod }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }
