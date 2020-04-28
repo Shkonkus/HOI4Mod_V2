@@ -23,7 +23,6 @@ state= {
 			}
 		}
 		add_core_of = SHO
-		add_core_of = GER
 		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 3
