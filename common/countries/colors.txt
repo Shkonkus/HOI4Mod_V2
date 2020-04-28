@@ -50,7 +50,7 @@ EST = {
 	color_ui = rgb { 40 75 130 }
 }
 LAT = {
-	color = rgb { 178 36 14 }
+	color = rgb { 158 26 88 }
 	color_ui = rgb { 200 22 70 }
 }
 SPR = {
@@ -701,5 +701,9 @@ WUR = {
 }
 SHL = {
 	color = rgb { 51 51 255 }
+	color_ui = rgb { 51 51 255 }
+}
+HYD = {
+	color = rgb { 255 255 0 }
 	color_ui = rgb { 51 51 255 }
 }
