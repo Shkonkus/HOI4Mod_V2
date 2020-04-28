@@ -11,7 +11,6 @@ state={
 
 	history={
 		owner = ENG
-		add_claim_of = TUR
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -21,6 +20,7 @@ state={
 			947 1 
 		}
 		add_core_of = TUR
+		add_core_of = GRE
 	}
 
 	provinces={

@@ -1,4 +1,4 @@
-capital = 64
+﻿capital = 64
 
 oob = "GER_1936"
 
@@ -262,7 +262,7 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 }
-add_ideas = GER_cladenstine_rearmament_1
+add_ideas = GER_mefo_bills_1
 
 activate_mission = GER_mefo_bills_mission
 
