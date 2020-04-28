@@ -161,6 +161,7 @@ if = {
 	else = {
 		puppet = MAL
 		puppet = RAJ
+		puppet = HYD
 	}
 }
 

@@ -942,27 +942,33 @@
 			}
 		}
 
-		GER_cladenstine_rearmament_1 = {
-			name = GER_cladenstine_rearmament_1
+		GER_mefo_bills_1 = {
+			name = GER_mefo_bills
 			allowed = {
 				original_tag = GER
 			}
 
-			allowed = {
-				always = no
-			}
-
 			allowed_civil_war = {
-				always = yes
+				has_government = fascism
 			}
 
 			removal_cost = -1
 
+			picture = ger_mefo_bills
+
 			modifier = {
-				consumer_goods_factor = -0.05
-				production_speed_arms_factory_factor = 0.25
-				war_support_factor = 0.40
-				political_power_cost = 0.2
+				consumer_goods_factor = -0.02
+				production_speed_arms_factory_factor = 0.10
+				production_speed_dockyard_factor = 0.10
+				production_speed_naval_base_factor = 0.10
+				production_speed_coastal_bunker_factor = 0.10
+				production_speed_bunker_factor = 0.10
+				production_speed_air_base_factor = 0.10
+				production_speed_anti_air_building_factor = 0.10
+				production_speed_radar_station_factor = 0.10
+				production_speed_fuel_silo_factor = 0.10
+				production_speed_synthetic_refinery_factor = 0.05
+				political_power_cost = 0.1
 			}
 		}
 
