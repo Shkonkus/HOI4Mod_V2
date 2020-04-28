@@ -1,0 +1,27 @@
+state={
+	id=798
+	name="STATE_798"
+	provinces={
+		856 981 3856 3983 11796 11831 11898 3927
+	}
+	manpower= 408233
+	resources={
+			steel=8.000
+	}
+	history={
+		owner = ITA
+		add_claim_of = TUR
+		add_claim_of = GRE
+		victory_points = {
+			11796 1
+	}
+	buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+	}
+	add_core_of = TUR
+	add_core_of = GRE
+	}
+
+	
+}
