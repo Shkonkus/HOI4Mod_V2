@@ -1,4 +1,4 @@
-﻿capital = 229 #Baku
+capital = 229 #Baku
 
 oob = "AZR_1936"
 
@@ -64,7 +64,10 @@ set_politics = {
 	ruling_party = neutrality
 	elections_allowed = no
 		}
-set_popularities = {	democratic = 30	communism = 40	neutrality = 30
+set_popularities = {	neutrality = 42
+	shia = 40
+	democratic = 7
+	communism = 11
 }
 
 create_country_leader = {

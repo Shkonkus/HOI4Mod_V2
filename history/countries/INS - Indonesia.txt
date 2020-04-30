@@ -51,13 +51,15 @@ set_politics = {
 	ruling_party = neutrality
 	last_election = “1935.11.04”
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 10
-	communism = 30
-	neutrality = 50
+	democratic = 35
+	neutrality = 19
+	sunni = 39
+	fascism = 4
+	communism = 13
+	
 }
 
 create_country_leader = {

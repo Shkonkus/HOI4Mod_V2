@@ -1,4 +1,4 @@
-﻿capital = 427
+capital = 427
 
 oob = "PAK_1936"
 
@@ -81,10 +81,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 5
-	communism = 2
-	neutrality = 88
+	neutrality = 76
+	sunni = 23
+	democratic = 1
 }
 
 

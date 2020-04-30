@@ -1,16 +1,11 @@
-capital = 291
+capital = 292
 
-oob = "IRQ_1936"
+oob = "SAU_1936"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_mountaineers = 1
-	gw_artillery = 1
-	early_fighter = 1
-	CAS1 = 1
-	fuel_silos = 1
+	gwtank = 1
 }
 
 set_convoys = 5
@@ -30,13 +25,10 @@ set_convoys = 5
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "IRQ_1939"
+	oob = "SAU_1939"
 	set_technology = {
-		early_fighter = 1
-		CAS1 = 1
 		tech_support = 1
 		tech_recon = 1
-		infantry_weapons2 = 1
 		support_weapons = 1
 		gw_artillery = 1
 
@@ -47,7 +39,6 @@ set_convoys = 5
 		fleet_in_being = 1
 		battlefleet_concentration = 1
 		convoy_sailing = 1
-
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -60,7 +51,7 @@ set_convoys = 5
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
-		fuel_refining = 1
+		fuel_silos = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
@@ -69,71 +60,24 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = Sunni Islamist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 19
-	shia = 23
-	sunni = 11
-	neutrality = 47
+	sunni = 94
+	democratic = 4
+	shia = 2
 }
 
 create_country_leader = {
-	name = "Ghazi I"
-	desc = "POLITICS_GHAZI_I_DESC"
-	picture = "GFX_portrait_iraq_ghazi"
+	name = "Abdulaziz Ibn Saud"
+	desc = "POLITICS_ABDULAZIZ_DESC"
+	picture = "Portrait_Saudi_Arabia_Abdulazis_Ibn_Saud.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
 		#
-	}
-}
-
-create_country_leader = {
-	name = "Rashid Ali al-Gaylani"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Yusuf Salman Yusuf"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		fascism = 30
-		neutrality = 70
-	}
-
-	create_country_leader = {
-		name = "Faisal II"
-		desc = "POLITICS_FAISAL_II_DESC"
-		picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_1.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
 	}
 }
