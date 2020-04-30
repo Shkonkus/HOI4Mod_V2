@@ -1,4 +1,4 @@
-﻿capital = 554
+capital = 554
 
 # Starting tech
 set_technology = {
@@ -63,10 +63,13 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
+	democratic = 52
 	fascism = 10
-	communism = 10
-	neutrality = 30
+	neutrality = 12
+	sunni = 20
+	shia = 3
+	communism = 3
+	
 }
 
 create_country_leader = {

@@ -1,4 +1,4 @@
-﻿capital = 231 #Tbilisi
+capital = 231 #Tbilisi
 
 oob = "GEO_1936"
 
@@ -59,7 +59,12 @@ if = {
 		basic_torpedo = 1
 	}
 }
-
+set_politics = {
+	ruling_party = democratic
+	last_election = “1935.11.14
+	election_frequency = 48
+	election_allowed = yes
+}
 set_popularities = {	democratic = 70	communism = 20
 	neutrality = 10
 }

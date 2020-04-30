@@ -1,4 +1,4 @@
-﻿capital = 64
+]capital = 64
 
 oob = "GER_1936"
 
@@ -241,7 +241,7 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = democracy
+	ruling_party = democratic
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

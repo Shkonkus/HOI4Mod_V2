@@ -136,8 +136,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 10
-	neutrality = 90
+	democratic = 7
+	neutrality = 63
+	communism = 3
+	sunni = 25
+	shia = 2
 }
 
 add_ideas = {
@@ -227,6 +230,15 @@ create_country_leader = {
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
+	traits = {
+		#
+	}
+create_country_leader = {
+	name = “Abdulmecid II”
+	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
+	picture = "gfx/leaders/TUR/TUR_Abdulmecid_II.dds"
+	expire = "1965.1.1"
+	ideology = sunni
 	traits = {
 		#
 	}
