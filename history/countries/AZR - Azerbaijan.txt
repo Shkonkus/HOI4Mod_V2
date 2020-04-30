@@ -1,4 +1,4 @@
-capital = 58 #holstien
+﻿capital = 229 #Baku
 
 oob = "AZR_1936"
 
@@ -25,7 +25,6 @@ set_technology = {
 	early_bomber = 1
 	strategic_bomber1 = 1
 	naval_bomber1 = 1
-	
 	mass_assault = 1
 	fleet_in_being = 1
 }
@@ -61,25 +60,26 @@ if = {
 	}
 }
 
-set_popularities = {	fascism = 30
-	democratic = 35
-	communism = 15
-	neutrality = 20
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+		}
+set_popularities = {	democratic = 30	communism = 40	neutrality = 30
 }
 
 create_country_leader = {
-	name = "Drastamat Kanayan"
+	name = "Mir Jafar Baghirov"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = stalinism
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Hovhannes Kajaznuni"
+	name = "Mammad Amin Rasulzade"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1953.3.1"
@@ -90,14 +90,15 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Grigor Harutyunyan"
+	name = "Gara Garabeyov"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = moderatism
 	traits = {
 		
 	}
 }
+
 
 
