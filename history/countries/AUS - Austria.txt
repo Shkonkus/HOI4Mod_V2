@@ -53,11 +53,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kurt Schuschnigg"
-	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
-	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
+	name = "Engelbert Dollfuss"
+	desc = " "
+	picture = "AUS_Engelbert_Dollfuss.dds"
 	expire = "1965.1.1"
-	ideology = fascism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
