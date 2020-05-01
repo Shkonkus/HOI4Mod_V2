@@ -19,7 +19,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = { id = Germany_1936_german_election_event_mod }
+			country_event = { id = germany.1 }
 			add_political_power = 25
 		}
 	}
@@ -36,6 +36,10 @@ focus_tree = {
 		mutually_exclusive = { focus = Germany_german_national_peoples_party }
 		mutually_exclusive = { focus = Germany_centrist_coalition }
 		prerequisite = { focus = Germany_1936_german_election_mod }
+		bypass = { has_country_flag = GER.Flag.KPDWins }
+		available = {
+			has_country_flag = GER.Flag.KPDWins
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -48,10 +52,16 @@ focus_tree = {
 		x = 10
 		y = 2
 		cost = 10
-		available_if_capitulated = yes
+		available_if_capitulated = no
+		
 		mutually_exclusive = { focus = Germany_centrist_coalition }
 		mutually_exclusive = { focus = Germany_kpd_wins }
 		prerequisite = { focus = Germany_1936_german_election_mod }
+		bypass = { has_country_flag = GER.Flag.MonarchistsWin }
+
+		available = {
+			has_country_flag = GER.Flag.MonarchistsWin
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -68,6 +78,11 @@ focus_tree = {
 		mutually_exclusive = { focus = Germany_kpd_wins }
 		mutually_exclusive = { focus = Germany_german_national_peoples_party }
 		prerequisite = { focus = Germany_1936_german_election_mod }
+		bypass = { has_country_flag = GER.Flag.CentristsWin }
+
+		available = {
+			has_country_flag = GER.Flag.CentristsWin
+		}
 		ai_will_do = {
 			factor = 1
 		}
