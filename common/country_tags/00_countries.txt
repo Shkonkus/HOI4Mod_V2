@@ -204,4 +204,5 @@ OCC = "countries/Occitania.txt"
 COR = "countries/Corsica.txt"
 ############################
 SHO = "countries/Holstien.txt"
-HYD = "countries/Hyderabad.txt
+HYD = "countries/Hyderabad.txt"
+KSH = "countries/Kashmir.txt"
