@@ -1,0 +1,22 @@
+state={
+	id=799
+	name="STATE_799"
+	history={
+		victory_points = {
+			9346 3
+		}
+		owner = POL
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = GER
+		add_core_of = POL
+
+	}
+	provinces={
+		3351 3380 6375 9346 9372 11386 
+	}
+	manpower=425173
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,25 @@
+state={
+	id=803
+	name="STATE_803"
+	state_category=large_city
+	history={
+		owner = FRA
+		victory_points = {
+			11531 5
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+
+		}
+		add_core_of = GER
+		add_core_of = FRA
+		
+
+		}
+	provinces={
+		9575 11531 
+	}
+	manpower=812346
+	buildings_max_level_factor=1.000
+}

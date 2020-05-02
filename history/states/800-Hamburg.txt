@@ -1,0 +1,28 @@
+state={
+	id=800
+	name="STATE_800"
+	history=
+	{
+		victory_points = {
+			9347 20
+		}
+		owner = SHO
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 4
+			air_base = 3
+			9347 ={
+				naval_base = 6
+			}
+		}
+		add_core_of = SHO
+		add_core_of = GER
+	}
+	provinces={
+		9347 
+	}
+	manpower=1567423
+	buildings_max_level_factor=1.000
+}
