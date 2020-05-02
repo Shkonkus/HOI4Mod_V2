@@ -1,0 +1,100 @@
+Germany:
+	National Spirits;
+		- bitter loser - change icon and contents
+		- general staff - delete
+	Map: 
+		- (possible) indépendant Bavaria, and Hannover.
+		- release Hamburg as an independent city state
+	Focus:
+		- trigger event
+		- “incite the Volga germans” only available to nationalist
+		- Hamburg-german reunification focus
+
+Russia:
+	National Spirits:
+		- remove all vanilla
+		- add national spirits
+	Focus:
+		- remove vanilla
+		- 
+
+Ecuador:
+	Map: 
+		- cede half of Loretto 
+
+British Raj:
+	Map:
+		- Seperate into many principalities
+
+Austria:
+	Map:
+		- Seperate veralberg from tyrol into veralberg state
+	Focus:
+		- Paths: Austro-fascists in power to fight Germany.
+	Leaders:
+		- Englebert portrait
+
+England:
+	Event:
+		- Has choice to support white Russia
+
+Turkey:
+	Focus:
+		- Shariah Law path leads to leader becoming
+	Map:
+		- split Antalia province in two, one to Greece
+	Events:
+		-Greece may balkanise Turkey
+		
+https://en.wikipedia.org/wiki/Abdulmejid_II
+
+Sinkiang:
+	Research:
+		- Shang Chikai
+	
+Mongolia:
+	History:
+		- buddhist theocracy under Bogd Khan
+
+Armenia:
+	Map:
+		- Magorno-Carabach state 
+		
+Georgia:
+	Map:
+		- Sochi to Georgia
+	History:
+		- Democratic, throughout game can join entente
+
+Azerbaijan:
+	History:
+		- Neutral and can side with Turkey to spite Armenia
+
+Greece:
+	History:
+		- Venezilos be in power however dies early “complete megali vision”
+	Map:
+		- Make upper eprise a state and core of Greece (in Albania)
+	Focuses:
+		-Mutually Exclusive
+			- Bring home Pontic Greeks (manpower bonus, -Consumer Goods)
+			- Independant Pontus (puppet)
+
+Syria:
+	History:
+		- Revolt against France
+		
+
+General:
+	Factions:
+		- Communist - Start with Finland, Armenia, Estonia
+
+Czechoslovakia:
+	- split Sudetenland into north and south.
+Italy:
+	National Spirit:
+		-Overstretched Colonial Empire
+			- Stability -10% 
+			- PP Growth - 20%
+			- Consumer Goods +5%
+			
