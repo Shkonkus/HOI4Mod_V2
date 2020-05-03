@@ -1,0 +1,25 @@
+state={
+	id=807
+	name="STATE_807"
+
+	history={
+		owner = ARM
+		victory_points = {
+			1467 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = AZR
+		add_core_of = ARM
+
+	}
+
+	provinces={
+		1467 9715 
+	}
+	manpower=162085
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

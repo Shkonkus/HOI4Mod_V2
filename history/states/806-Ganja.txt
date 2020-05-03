@@ -1,21 +1,16 @@
 
 state={
-	id=229
-	name="STATE_229"
-	resources={
-		oil=70.000
-	}
+	id=806
+	name="STATE_806"
 
 	history={
 		owner = AZR
 		victory_points = {
-			7661 10 
+			11674 3 
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-			fuel_silo = 1
-			air_base = 1
 
 		}
 		add_core_of = AZR
@@ -23,9 +18,9 @@ state={
 	}
 
 	provinces={
-		1536 4458 4473 4545 4614 7495 7661 12434 
+		1539 1610 4477 6763 11645 11674 11704 
 	}
-	manpower=2247049
+	manpower=363043
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=town
 }
