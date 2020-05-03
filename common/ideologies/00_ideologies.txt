@@ -59,7 +59,7 @@ ideologies = {
 	
 		types = {
 			
-			shia = {
+			sunni = { 
 			}
 		
 		}
