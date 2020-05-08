@@ -802,4 +802,7 @@
  STATE_801:0 "Trentino"
  STATE_802:0 "Znaim"
  STATE_803:0 "Saarland"
- STATE_804:0 "Veralberg"
+ STATE_804:0 "Voralberg"
+ STATE_805:0 "Artvini"
+ STATE_806:0 "Ganja"
+ STATE_807:0 "Nagorno-Karabakh"
