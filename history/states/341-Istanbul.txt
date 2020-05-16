@@ -8,10 +8,9 @@ state={
 	}
 
 	history={
-		add_claim_by = TUR
 		owner = GRE
 		victory_points = {
-			849 2
+			11842 2
 		}
 		buildings = {
 			infrastructure = 5
