@@ -184,8 +184,8 @@
  FIN_democratic_party_long:0 "Suomen Sosialidemokraattinen Puolue"
  FIN_fascism_party:0 "IKL"
  FIN_fascism_party_long:0 "Isänmaallinen Kansanliike"
- FIN_communism_party:0 "SKP"
- FIN_communism_party_long:0 "Suomen Kommunistinen Puolue"
+ FIN_communism_party:0 "SDP"
+ FIN_communism_party_long:0 "Suomen sosialidemokraattinen puolue"
  DEN_democratic_party:0 "Socialdemokratiet"
  DEN_democratic_party_long:0 "Socialdemokratiet"
  DEN_fascism_party:0 "DNSAP"
@@ -549,8 +549,8 @@
  AZR_communism_party:0 "Communist Party of Azerbaijan"
  AZR_neutrality_party:0 "Ittihad"
  ARM_fascism_party:0 "Armenian Legion"
- ARM_democratic_party:0 "Armenian Revolutionary Federation" #or ARF 
- ARM_communism_party:0 "Communist Party of Armenia"
+ ARM_democratic_party:0 "Armenian Populist Party" #or ARF 
+ ARM_communism_party:0 "Dashnaktsutyun"
  ARM_neutrality_party:0 "Central Authority"
  BLR_fascism_party:0 "Belarusian Central Council"
  BLR_democratic_party:0 "Belarusian Christian Democracy"
