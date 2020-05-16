@@ -3,6 +3,10 @@ capital = 230 #Yerevan, Armenia
 oob = "AZR_1936"
 
 set_research_slots = 3
+add_ideas = {
+	limited_conscription
+	partial_economic_mobilisation
+}
 
 # Starting tech
 set_technology = {

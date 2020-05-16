@@ -14,7 +14,6 @@ state={
 			11401 3 
 		}
 		owner = CZE
-		add_core_of = GER
 		add_core_of = AUS
 		buildings = {
 			infrastructure = 8
