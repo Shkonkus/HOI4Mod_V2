@@ -1,4 +1,4 @@
-capital = 111
+﻿capital = 111
 
 oob = "FIN_1936"
 if = {
@@ -13,6 +13,7 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	early_economic_mobilisation
 }
 
 set_technology = {
@@ -123,6 +124,10 @@ set_popularities = {
 	communism = 70
 	neutrality = 5
 }
+
+create_faction = International
+add_to_faction = FIN
+add_to_faction = ARM
 
 1939.1.1 = {
 	set_politics = {
