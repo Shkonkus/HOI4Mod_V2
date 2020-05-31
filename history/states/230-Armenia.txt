@@ -7,7 +7,7 @@ state={
 		owner = ARM
 		add_claim_of = SOV
 		victory_points = {
-			12320 1 
+			12320 5 
 		}
 		buildings = {
 			infrastructure = 5
