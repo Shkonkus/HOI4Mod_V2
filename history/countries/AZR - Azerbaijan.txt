@@ -61,12 +61,12 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	elections_allowed = no
 		}
-set_popularities = {	neutrality = 42
-	shia = 40
-	democratic = 7
+set_popularities = {	neutrality = 13
+	shia = 34
+	democratic = 42
 	communism = 11
 }
 
@@ -97,7 +97,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = moderatism
+	ideology = shia
 	traits = {
 		
 	}

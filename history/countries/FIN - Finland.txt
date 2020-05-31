@@ -13,7 +13,7 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
-	early_economic_mobilisation
+	low_economic_mobilisation
 }
 
 set_technology = {
@@ -128,6 +128,7 @@ set_popularities = {
 create_faction = International
 add_to_faction = FIN
 add_to_faction = ARM
+add_to_faction = EST
 
 1939.1.1 = {
 	set_politics = {
