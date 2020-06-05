@@ -14,6 +14,24 @@ set_technology = {
 	early_fighter = 1
 }
 
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = HUN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+
+	else = {
+		puppet = HUN
+	}
+
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1930.11.9"

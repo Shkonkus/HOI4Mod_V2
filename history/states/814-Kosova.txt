@@ -1,0 +1,22 @@
+state={
+	id=814
+	name="STATE_814"
+
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = YUG
+		add_core_of = ALB
+
+	}
+
+	provinces={
+		6940 9849 9874 9890 
+	}
+	manpower=572387
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
