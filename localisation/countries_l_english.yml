@@ -301,6 +301,8 @@
  SWI_ADJ:0 "Swiss"
  TUR_fascism:1 "Turkish Empire"
  TUR_fascism_DEF:1 "the Turkish Empire"
+ TUR_sunni:1 "Ottoman Empire"
+ TUR_sunni_DEF:1 "the Ottoman Empire"
  TUR_democratic:0 "Republic of Turkey"
  TUR_democratic_DEF:0 "the Republic of Turkey"
  TUR_neutrality:0 "Republic of Turkey"
