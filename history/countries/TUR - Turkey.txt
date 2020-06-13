@@ -1,4 +1,4 @@
-capital = 49
+﻿capital = 49
 
 oob = "TUR_1936"
 if = {
@@ -233,9 +233,10 @@ create_country_leader = {
 	traits = {
 		#
 	}
+
 create_country_leader = {
 	name = “Abdulmecid II”
-	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
+	desc = " "
 	picture = "gfx/leaders/TUR/TUR_Abdulmecid_II.dds"
 	expire = "1965.1.1"
 	ideology = sunni

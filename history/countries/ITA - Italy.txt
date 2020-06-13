@@ -224,15 +224,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 22
-	fascism = 76
-	communism = 2
+	democratic = 27
+	fascism = 48
+	communism = 14
+	neutrality = 11
 }
 
 create_country_leader = {
 	name = "Benito Mussolini"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Italy_Benito_Mussolini.dds"
+	picture = "ITA_Benito_Mussolini.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
