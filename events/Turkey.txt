@@ -1,0 +1,17 @@
+﻿# Italy Refuses compensation
+country_event = {
+	id = turkey.1
+	title = turkey.1.t
+	desc = turkey.1.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = turkey.1.a
+		create_wargoal = {
+			type = annex_everything
+			target = ITA
+		}		
+	}
+}
