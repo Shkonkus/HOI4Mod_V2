@@ -1,15 +1,20 @@
 state={
 	id=803
 	name="STATE_803"
-	state_category=large_city
-	history={
+
+	resources={
+		steel=20.000
+		aluminium=5.000
+	}	
+state_category=town	
+history={
 		owner = FRA
 		victory_points = {
 			11531 5
 		}
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 2
+			industrial_complex = 1
 			9575 = {
 				bunker = 5
 

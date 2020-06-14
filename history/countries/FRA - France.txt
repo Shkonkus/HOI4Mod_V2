@@ -1,4 +1,4 @@
-capital = 16
+﻿capital = 16
 
 oob = "FRA_1936"
 if = {
@@ -245,9 +245,7 @@ add_ideas = {
 	FRA_inefficient_economy_2
 }
 
-give_guarantee = CZE
-give_guarantee = YUG
-give_guarantee = ROM
+give_guarantee = BAY
 
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {
